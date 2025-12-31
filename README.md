@@ -1,7 +1,7 @@
 # Personal Portfolio - Anil Kumar
 **GenAI & AI Security Engineer**
 
-![Hero Banner Placeholder](assets/img/hero-screenshot.png)
+
 
 ## About the Project
 This is a responsive, dark-themed personal portfolio website built to showcase Anil Kumar's projects, research, and skills, with a focus on RAG architectures, federated learning, and secure AI systems.
