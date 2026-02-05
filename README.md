@@ -1,45 +1,25 @@
 # MyPortfolio
-Personal portfolio website for Anil Kumar - GenAI and AI Security Engineer.
+Personal portfolio website for Anil Kumar 
 
 ## Preview
-![Portfolio preview](assets/img/a1.png)
 
-## Highlights
+
+## Some Highlights
+
 - Responsive layout for mobile, tablet, and desktop
 - Dark theme with glassmorphism styling
 - Sections for projects, skills, certifications, and contact
 - Smooth scroll, animations, counters, and sliders
 
-## Tech stack
+## Tech stack used : 
 - HTML5, CSS3, JavaScript
 - Bootstrap 5
 - AOS, Swiper, GLightbox, Typed.js, Isotope, PureCounter
 
-## Project structure
-```
-MyPortfolio/
-├── assets/
-│   ├── css/
-│   ├── img/
-│   ├── js/
-│   └── vendor/
-├── forms/
-├── index.html
-└── README.md
-```
-
-## Run locally
-1. Clone the repository.
-2. Open `index.html` in your browser.
-
-## Customize
-- Update content: `index.html`
-- Replace images: `assets/img/`
-- Adjust styles: `assets/css/style.css`
-- Contact form action: `index.html` (Formspree URL)
 
 ## Deployment
-- GitHub Pages: push to `main`, then enable Pages in repo settings.
+- deployed freely on surge.sh 
+- web link : https://anilkb.surge.sh/
 
 ## Credits
 Built on the iPortfolio template by BootstrapMade and customized by Anil Kumar.
