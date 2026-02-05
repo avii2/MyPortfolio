@@ -1,27 +1,52 @@
-# Personal Portfolio - Anil Kumar
-**GenAI & AI Security Engineer**
+# MyPortfolio
+Personal portfolio website for Anil Kumar - GenAI and AI Security Engineer.
 
+## Preview
+![Portfolio preview](assets/img/a1.png)
 
+## Highlights
+- Responsive layout for mobile, tablet, and desktop
+- Dark theme with glassmorphism styling
+- Sections for projects, skills, certifications, and contact
+- Smooth scroll, animations, counters, and sliders
 
-## About the Project
-This is a responsive, dark-themed personal portfolio website built to showcase Anil Kumar's projects, research, and skills, with a focus on RAG architectures, federated learning, and secure AI systems.
+## Tech stack
+- HTML5, CSS3, JavaScript
+- Bootstrap 5
+- AOS, Swiper, GLightbox, Typed.js, Isotope, PureCounter
 
-## Key Features
-- Responsive Design: Works on mobile, tablet, and desktop.
-- Modern UI: Dark mode with glassmorphism effects and smooth animations.
-- Dynamic Sections: Interactive project cards and skill progress bars.
+## Project structure
+```
+MyPortfolio/
+├── assets/
+│   ├── css/
+│   ├── img/
+│   ├── js/
+│   └── vendor/
+├── forms/
+├── index.html
+└── README.md
+```
 
-## Tech Stack
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- FontAwesome (icons)
-
-## Setup / How to Run
+## Run locally
 1. Clone the repository.
 2. Open `index.html` in your browser.
 
+## Customize
+- Update content: `index.html`
+- Replace images: `assets/img/`
+- Adjust styles: `assets/css/style.css`
+- Contact form action: `index.html` (Formspree URL)
+
+## Deployment
+- GitHub Pages: push to `main`, then enable Pages in repo settings.
+
+## Credits
+Built on the iPortfolio template by BootstrapMade and customized by Anil Kumar.
+
 ## Contact
 - Email: anilkumarb.work@gmail.com
-- Twitter/X: [CrazyIITian_Avi](https://x.com/crazyiitian_avi?s=21)
-- Location: Dholiya(baru), Phalodi, Jodhpur, Rajasthan, India.
+- LinkedIn: https://www.linkedin.com/in/anil-kumar-0342711b4/
+- GitHub: https://github.com/avii2
+- X (Twitter): https://x.com/crazyiitian_avi?s=21
+- Location: Dholiya(baru), Phalodi, Jodhpur, Rajasthan, India
