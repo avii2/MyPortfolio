@@ -126,6 +126,37 @@
   });
 
   /**
+   * Resume download fallback (helps when the download attribute is ignored)
+   */
+  on('click', '[data-resume-download]', async function(e) {
+    const url = this.getAttribute('href')
+    const filename = this.getAttribute('data-resume-download') || 'Resume.pdf'
+
+    if (!url) return
+
+    e.preventDefault()
+
+    try {
+      const response = await fetch(url, { cache: 'no-cache' })
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`)
+      }
+
+      const blob = await response.blob()
+      const blobUrl = window.URL.createObjectURL(blob)
+      const tempLink = document.createElement('a')
+      tempLink.href = blobUrl
+      tempLink.download = filename
+      document.body.appendChild(tempLink)
+      tempLink.click()
+      tempLink.remove()
+      setTimeout(() => window.URL.revokeObjectURL(blobUrl), 1000)
+    } catch (error) {
+      window.open(url, '_blank', 'noopener')
+    }
+  }, true)
+
+  /**
    * Hero type effect
    */
   const typed = select('.typed')
