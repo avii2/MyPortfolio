@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 140px;
   border: 6px solid #2c2f3f;
   border-radius: 50%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   background: #040b14;
   box-shadow: 0 0 0 6px #151826;
